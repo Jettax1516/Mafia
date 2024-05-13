@@ -1,0 +1,49 @@
+
+    *{
+        font-family: 'montserrat', sans-serif, Verdana, Tahoma;
+    }
+    
+      .card{
+        margin-top: 8rem;
+      }
+  
+      .card-img-top{
+        padding: 25px;
+        transition: transform .5s;
+  
+      }
+  
+      .button{
+        float: right;
+      }
+  
+      .card{
+        background-color: #f5f5f5;
+        border-style: none !important;
+      }
+  
+      hr{
+        border-color: #dbdbdb;
+      }
+  
+      .card-text{
+        font-weight: bold;
+      }
+  
+      .card-img-top:hover{
+        transform: scale(1.1);
+      }
+
+      @media (max-width: 767px) {
+
+        .job-card{
+          margin: 0 5%;
+        }
+      }
+
+      @media (min-width: 1024px) and (max-width: 2000px){
+        .job-section{
+          padding: 2rem 5rem 5rem!important;
+        }
+      }
+  
