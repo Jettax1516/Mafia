@@ -5,7 +5,7 @@ Mafia website
 
 
 Далее установить пакеты для работы проекта:
-npm install express
+npm install express,
 npm install cors
 
 Далее запустить сервер с помощью консоли
